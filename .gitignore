@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+build/
+**/build/
+.next/
+**/.next/
+out/
+**/out/
+coverage/
+**/coverage/
+.turbo/
+**/.turbo/
+.cache/
+**/.cache/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+
+# Logs and runtime files
+*.log
+logs/
+**/logs/
+*.pid
+*.pid.lock
+*.seed
+
+# Prisma generated/local artifacts
+**/prisma/*.db
+**/prisma/*.db-journal
+**/prisma/*.sqlite
+**/prisma/*.sqlite-journal
+
+# Test artifacts
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Package manager files
+.npm/
+.pnpm-store/
+.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+*.tgz
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
